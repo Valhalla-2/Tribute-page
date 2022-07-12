@@ -9,6 +9,7 @@ main {
     width: 80%;
     margin: -10px auto;
     border-radius: 5px;
+    word-spacing: 4px;
 }
 .title, .description {
     width: max-content;
@@ -37,9 +38,17 @@ header {
    
 }
 a {
-    color: black;
+    color: rgb(0, 0, 0);
     font-style: italic;
-    /* font-weight: 500; */
+    text-decoration: none;
+
+}
+a:hover {
+    background-color: rgb(186, 186, 186);
+    color: #353535;
+    border-radius: 5px;
+    box-shadow:1px 1px 5px 2px #828282;
+    padding: 1px;
 }
 .cinematic-style {
     width: 90%;
