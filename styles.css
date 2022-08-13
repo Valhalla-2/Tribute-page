@@ -59,7 +59,7 @@ a:hover {
     display: block;
     margin: auto;
     border-radius: 5px;
-    box-shadow: 2px 2px 20px 5px #5d5d5d;
+    /* box-shadow: 2px 2px 3px 2px #5d5d5d; */
     width: 40%; 
 }
 .source {
